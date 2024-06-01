@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+	margin: 0px;
+	border: 0px;    
+}
+
+.default-h-f{
+    height: 154px;
+    background-color: #07203F;
+    color: #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.container-v{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+
+.logo{
+    font-weight: bolder;
+    width: 700px;
+    display: flex;
+    justify-content: start;
+    font-size: 36px;
+}
+
+.section-1{
+    height: 801px;
+    background-color: #07203F;
+}
+
+.container-s1{
+    height: 100%;
+    color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-s1{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.right-s1{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline{
+    font-size: 64px;
+}
+
+#lowline{
+    font-size: 36px;
+}
+
+.img{
+    width: 516px;
+    height: 516px;
+    border-radius: 50%;
+    border-bottom: 7px solid #D9D9D9;
+    background-image: url(https://s6.stc.all.kpcdn.net/edu/wp-content/uploads/2023/07/veb-razrabotchik-1232.jpg);
+}
+
+button{
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 0;
+}
+
+.section-2{
+    height: 801px;
+    background-image: url(https://media.istockphoto.com/id/1165879352/photo/modern-skyscrapers-in-business-district.jpg?s=612x612&w=0&k=20&c=NraxOmuHCIvgVoAM5IxVt7c8dcHPk2al97MbGJbXsQQ=);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-s2{
+    height: 100%;
+    color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    background-color: #07203F;
+    border: 5px solid #07203F;
+}
+
+.card-img{
+    width: 350px;
+    height: 223px;
+    background-color: white;
+}
+
+.text-centered-block{
+    height: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMNJH4kqz0YJw-8WERNTAtPRzGKnB0vrVVhBiao6BNhw&s);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-2{
+    background-image: url(https://habrastorage.org/getpro/habr/upload_files/88f/f62/19f/88ff6219fa2661ad4344f09f7b11a0ee.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3{
+    background-image: url(https://kinsta.com/wp-content/uploads/2024/01/wp-advanced-css-techniques.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-3{
+    height: 1795px;
+    background-color: #07203F;
+}
+
+.container-s3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-s3{
+    height: 300px;
+}
+
+.bottom-s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.work-block{
+    color: #D9D9D9;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-img{
+    width: 540px;
+    height: 367px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/9c5a/4e18/ea3fa8d25a0403cc8ea63a638e998a89?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=p4IRStcWfmPZ0H0e-ttCDcoJDWZ4yIHYPRS8qiwj9G3tm~8-w7ejTsBmN-Mc0yzbPP8W8OIFV8dvXIAN0AQHmer~Jq4255qEyl15EMMUpoYbQPwi4TeYa5Dvx4~FQbGBVz9txRshoFTyxZG5BWdBPGxr~llVHPVYSOo5FZU7vyVY70cciy-2ud0llwUTyomI2AHMi~zdSzJX2hvaQQjH4ZvNjnmKTbkHa7WXdm3nVxSBMhEw-spH4NfKZ7yZkfleh67JURX5c2JMxn9YhWXa9B9pi~UNBXELXqo8coeBFZvk0QmDnXpmY2KFLFh2hhHXRq1mi2HVHKviwtTfn~rHqA__);
+
+}
+
+.work-text{
+    text-align: left;
+}
+
+.section-4{
+    height: 1141px;
+    background-color: #EADED4;
+}
+
+.container-s4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+        height: 662px;
+        width: 759px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+
+.f-input{
+    width: 631px;
+    height: 98px;
+    border: 0;
+    background-color: #EADED4;
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+}
+
+.buttons{
+    width: 631px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-buttons{
+    border-radius: 0;
+    width: 266px;
+    height: 68px;
+    border: 0;
+    background-color: #EADED4;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.c-card{
+    width: 350px;
+    height: 350px;
+    background-color: #07203F;
+    border: 5px solid #07203F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-buttons{
+    width: 298.9px;
+    height: 69.3px;
+    border: 0;
+}
+
+button:hover{
+    background-color: #07203F;
+    color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    transition: 300ms;
+}
